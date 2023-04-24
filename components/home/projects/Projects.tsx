@@ -22,7 +22,7 @@ const projects = [
     imgSrc: "project-imgs/Portyfolio.png",
     code: "https://www.github.com",
     projectLink: "https://www.youtube.com/watch?v=dQw4w9WgXcQ",
-    tech: ["Nodejs(Next)", "Ruby On Rails", "", ""],
+    tech: ["Nodejs(Next)", "Ruby On Rails", "PostgreSQL", "Docker"],
     description:
       "I designed and built this website from so that one can present their resume visually. It was a birthday gift to myself",
     modalContent: (

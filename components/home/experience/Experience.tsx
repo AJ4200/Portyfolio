@@ -14,48 +14,31 @@ export const Experience = () => {
 
 const experience = [
   {
-    title: "Google",
-    position: "Software Engineer",
+    title: "JEP Productions",
+    position: "Software Engineer(Full Stack)",
     time: "2022 - Present",
-    location: "Atlanta",
+    location: "Remote",
     description:
-      "I help build and scale Google Photos. Increased throughput of our primary services by 70%. Migrated backend service from Java to Go. Also helped make it look prettier.",
+      "Full Stack developer. I created, manage an scale jep product such as Portyfolio(this site), CommonFunLib and CodeShifter from scratch using the  most effecient tech stacks",
     tech: [
-      "Angular",
+      "Nodejs",
       "Python",
-      "GCP",
+      "Ruby",
       "Git",
       "GitHub",
       "Java",
-      "Golang",
-      "K8s",
+      "Maven",
+      "MongoDB",
+      "PostgreSQL",
     ],
   },
   {
-    title: "Facebook",
-    position: "Software Engineer",
-    time: "2020 - 2022",
-    location: "San Francisco",
+    title: "Capdatacon.io",
+    position: "Data Analyst Intern",
+    time: "2020 Feb - 2020 July",
+    location: "Remote",
     description:
-      "Senior Full Stack Engineer for Facebook Marketplace. Created a service from scratch to handle new listings. Also played some ping pong. It was fun.",
-    tech: ["React", "Node", "PHP", "GraphQL", "Presto", "Cassandra"],
-  },
-  {
-    title: "Amazon",
-    position: "Software Engineer",
-    time: "2016 - 2020",
-    location: "Seattle",
-    description:
-      "Data Engineer for store front. Built data pipelines with Spark and Airflow. Saw Bezos one time. He said he liked my paintings. I said I liked his hair.",
-    tech: [
-      "Java",
-      "Python",
-      "S3",
-      "RDS",
-      "Redshift",
-      "PySpark",
-      "HDFS",
-      "Apache Airflow",
-    ],
+      "Junior Data Analyst was responsible to represent data in all data formats(e.g JSON, CSV and etc) using",
+    tech: ["pgAdmin", "R", "Python", "GraphQL", "Azure", "Cassandra"],
   },
 ];

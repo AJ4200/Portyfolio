@@ -28,6 +28,7 @@
 }
 
 .dotWrapper:hover > .dot {
+  cursor: grabbing;
   background: linear-gradient(
     180deg,
     var(--background),

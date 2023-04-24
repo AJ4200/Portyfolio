@@ -1,6 +1,6 @@
 import "@/styles/globals.css";
 import "@/styles/loader.css";
-
+import "@/styles/waitlist.css";
 import type { AppProps } from "next/app";
 import { Poppins } from "next/font/google";
 

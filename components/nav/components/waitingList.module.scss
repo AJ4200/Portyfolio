@@ -1,0 +1,39 @@
+.waitingList {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: var(--background-light);
+    color: var(--text);
+    font-size: var(--text-lg);
+    padding: 3rem;
+    border-radius: 2rem;
+    box-shadow: 0 0 1rem var(--background-dark);
+  }
+  
+  .waitingList__header {
+    font-size: var(--text-2xl);
+    margin-bottom: 2rem;
+  }
+  
+  .waitingList__input {
+    display: block;
+    width: 100%;
+    margin-bottom: 2rem;
+    padding: 1rem;
+    font-size: var(--text-md);
+    background-color: var(--bg-opaque);
+    border: none;
+    border-radius: 0.5rem;
+    color: var(--text);
+  }
+  
+  .waitingList__button {
+    background-color: var(--brand);
+    color: var(--background);
+    border: none;
+    font-size: var(--text-md);
+    padding: 1rem 2rem;
+    border-radius: 2rem;
+    cursor: pointer;
+  }

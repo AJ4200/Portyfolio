@@ -42,7 +42,7 @@ const waitingList = document.querySelector(".waitingList")!;
 waitingList.classList.add("fade-out");
 setTimeout(() => {
 setShowWaitingList(false);
-}, 300);
+}, 700);
 };
 
 return (

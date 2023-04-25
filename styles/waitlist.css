@@ -1,6 +1,6 @@
 .waitingList {
     position: absolute;
-    top: 100%;
+    top: 110%;
     left: 1.5%;
     transform: translate(-50%, -50%);
     color: var(--text);

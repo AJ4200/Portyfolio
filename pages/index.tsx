@@ -7,13 +7,13 @@ export default function Home() {
 
   setTimeout(() => {
     setLoading(false);
-  }, 5000);
+  }, 6000);
 
   return (
     <>
       <Head>
         <title>Portyfolio</title>
-        <meta name="description" content="Bleep boop" />
+        <meta name="description" content="Make your own visual today for free on portyfolio" />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <link rel="icon" href="/favicon.ico" />
       </Head>

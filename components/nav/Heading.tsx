@@ -16,20 +16,17 @@ export const Heading = () => {
   }) => {
     setEmail(event.target.value);
   };
-
   const handleSubmit = async (event: { preventDefault: () => void }) => {
     event.preventDefault();
     setIsLoading(true);
     try {
-      const response = await axios.post("http://localhost:8080/waitingusers", {
+      const response = await axios.post("https://portyfolio-api.onrender.com/users", {
         email: email,
       });
       if (response.status === 200) {
         setTimeout(() => {
           setIsSubmitted(true);
-         
         }, 3000);
-  
       }
     } catch (error) {
       console.log(error);
@@ -38,6 +35,7 @@ export const Heading = () => {
       setIsSubmitted(true);
     }
   };
+  
 
   const handleMakeYourOwnClick = () => {
     setShowWaitingList(true);
@@ -75,7 +73,7 @@ export const Heading = () => {
             ) : (
               <>
                 <p>
-                  Enter your email below to be notified when the feature is fully developed.
+                  Enter your email below get early access when the feature is fully developed.
                 </p>
                 <form onSubmit={handleSubmit}>
                   <input

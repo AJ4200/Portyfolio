@@ -39,6 +39,6 @@ const experience = [
     location: "Remote",
     description:
       "Junior Data Analyst was responsible to represent data in all data formats(e.g JSON, CSV and etc) using",
-    tech: ["pgAdmin", "R", "Python", "GraphQL", "Azure", "JSON"],
+    tech: ["pgAdmin", "R", "Python", "GraphQL", "Azure", "JSON", "CSV"],
   },
 ];

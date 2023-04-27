@@ -5,7 +5,21 @@ import { SetStateAction, useState, useEffect } from "react";
 import { MdClose } from "react-icons/md";
 import axios from "axios";
 
+
 export const Heading = () => {
+
+  window.addEventListener('DOMContentLoaded', () => {
+    const waitingList = document.querySelector('.waitingList') as HTMLElement;
+    const windowHeight = window.innerHeight;
+    const waitingListHeight = waitingList.offsetHeight;
+    const waitingListTop = waitingList.offsetTop;
+  
+    if (waitingListTop + waitingListHeight > windowHeight) {
+      waitingList.style.top = `${windowHeight - waitingListHeight}px`;
+    }
+  });
+  
+
   const [showWaitingList, setShowWaitingList] = useState(false);
   const [email, setEmail] = useState("");
   const [isSubmitted, setIsSubmitted] = useState(false);

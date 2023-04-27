@@ -19,7 +19,7 @@ export const Hero = () => {
         </Reveal>
         <Reveal>
           <p className={styles.aboutCopy}>
-          I&apos;m a software engineer in training with experience in building and scaling software for innovative companies. Additionally, I possess skills in creative fields such as cinematography, music production, game development, and content creation. Pursuied a BSc degree at the University of Johannesburg, I take on small projects to further hone my skills. As a hobbyist, I develop mods for games, make music, record commentary videos for YouTube, and compete in online gaming tournaments. Let&apos;s collaborate and create dynamic solutions together!
+          I&apos;m a software engineer in training with experience in building and scaling software for innovative companies. Additionally, I possess skills in creative fields such as cinematography, music production, game development, and content creation. Pursued a BSc degree at the University of Johannesburg, I take on small projects to further hone my skills. As a hobbyist, I develop mods for games, make music, record commentary videos for YouTube, and compete in online gaming tournaments. Let&apos;s collaborate and create dynamic solutions together!
           </p>
         </Reveal>
         <Reveal>

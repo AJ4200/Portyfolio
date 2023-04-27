@@ -13,7 +13,7 @@ export default function Home() {
     <>
       <Head>
         <title>Portyfolio</title>
-        <meta name="description" content="Make your own visual today for free on portyfolio" />
+        <meta name="description" content="Make your own visual resume today for free with portyfolio" />
         <meta name="viewport" content="width=device-width, initial-scale=0" />
         <link rel="icon" href="/favicon.ico" />
       </Head>

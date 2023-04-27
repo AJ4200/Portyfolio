@@ -20,9 +20,9 @@ const projects = [
   {
     title: "Portyfolio",
     imgSrc: "project-imgs/Portyfolio.png",
-    code: "https://www.github.com",
-    projectLink: "https://www.youtube.com/watch?v=dQw4w9WgXcQ",
-    tech: ["Nodejs(Next)", "Ruby On Rails", "PostgreSQL", "Docker"],
+    code: "https://github.com/AJ4200/Portyfolio",
+    projectLink: "https://portyfolio.vercel.app",
+    tech: ["Nodejs(Next)", "Ruby On Rails", "PostgreSQL", "Express", "Axios"],
     description:
       "I designed and built this website from so that one can present their resume visually. It was a birthday gift to myself",
     modalContent: (

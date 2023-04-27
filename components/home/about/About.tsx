@@ -4,6 +4,7 @@ import { SectionHeader } from "@/components/utils/SectionHeader";
 import styles from "./about.module.scss";
 import { Stats } from "./Stats";
 import { AiOutlineArrowRight } from "react-icons/ai";
+import Link from "next/link";
 
 export const About = () => {
   return (
@@ -13,7 +14,7 @@ export const About = () => {
         <div>
           <Reveal>
             <p className={`${styles.aboutText} ${styles.highlightFirstLetter}`}>
-            As a dedicated software engineer in training, I have gained valuable experience in building and scaling software for a range of innovative companies over the past 5 years. Alongside my passion for software engineering, I also possess a diverse range of skills in other creative fields, including cinematography, music production, game development, and content creation. With a strong background in web development and photography, I am currently pursuing my BSc degree at the esteemed University of Johannesburg while taking on small projects to further hone my skills, such as website building and game designing.
+            As a dedicated software engineer, I have gained valuable experience in building and scaling software for a range of innovative companies over the past 5 years. Alongside my passion for software engineering, I also possess a diverse range of skills in other creative fields, including cinematography, music production, game development, and content creation. With a strong background in web development and photography, I am currently pursuing my BSc degree at the esteemed University of Johannesburg while taking on small projects to further hone my skills, such as website building and game designing.
             </p>
           </Reveal>
           <Reveal>
@@ -25,9 +26,16 @@ export const About = () => {
           <Reveal>
             <p className={styles.aboutText}>
               I&apos;m passively looking for a job where I can merge my
-              love for code with my love learning new things. If you think
-              you&apos;ve got an opening that I might like, let&apos;s connect
-              🔗
+              love for coding for learning new things. If you think
+              you&apos;ve got a spot on your team where i might fit in, let me know and 
+              let&apos;s connect{" "}
+            <Link
+              href="https://www.linkedin.com/in/abel-majadibodu-5a0583193"
+              target="_blank"
+              rel="nofollow"
+            >
+               🔗
+            </Link>       
             </p>
           </Reveal>
           <Reveal>

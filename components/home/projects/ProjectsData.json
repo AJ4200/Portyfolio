@@ -1,0 +1,29 @@
+[
+  {
+    "title": "Portyfolio",
+    "imgSrc": "project-imgs/Portyfolio.png",
+    "code": "https://github.com/AJ4200/Portyfolio",
+    "projectLink": "https://portyfolio.vercel.app",
+    "tech": ["Nodejs(Next)", "Ruby On Rails", "PostgreSQL", "Express", "Axios"],
+    "description": "I designed and built this website from so that one can present their resume visually. It was a birthday gift to myself",
+    "modalContent": "<p>...</p>"
+  },
+  {
+    "title": "CommonFunLib.io",
+    "imgSrc": "project-imgs/CommonFunLib.png",
+    "code": "https://github.com/AJ4200/commonfunlib.io",
+    "projectLink": "https://commonfunlib.onrender.com",
+    "tech": ["Nodejs(React)", "Ruby On Rails", "Maven", "Java"],
+    "description": "A companion for My Java library. This app is my baby, designed and built on my own.",
+    "modalContent": "<p>...</p>"
+  },
+  {
+    "title": "CodeShifter",
+    "imgSrc": "project-imgs/CodeShifter.png",
+    "code": "https://github.com/AJ4200/CodeShifter",
+    "projectLink": "https://code-shifter.vercel.app",
+    "tech": ["Nodejs(Next)", "Python", "NTM(Language Models)"],
+    "description": "Converts code form one progamming language to another instantly",
+    "modalContent": "<p>...</p>"
+  }
+]

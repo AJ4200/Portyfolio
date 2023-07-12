@@ -1,4 +1,5 @@
 .projects {
+  padding-top: 1rem;
   display: grid;
   grid-template-columns: 1fr 1fr;
   gap: 3.2rem;
@@ -9,23 +10,12 @@
 }
 
 .projectImage {
-  width: 100%;
-  aspect-ratio: 16 / 9;
-  background: var(--background-light);
+  
   cursor: pointer;
-  position: relative;
   border-radius: 0.8rem;
-  overflow: hidden;
-
-  img {
-    width: 85%;
+  img {  
     position: relative;
-    bottom: 0;
-    left: 50%;
-    translate: -50% 20%;
-
     transition: 0.25s all;
-
     border-radius: 0.4rem;
   }
 }
@@ -66,7 +56,7 @@
 
 .projectDescription {
   font-weight: 200;
-
+padding-bottom: 2rem;
   span {
     display: inline-block;
 

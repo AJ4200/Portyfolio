@@ -68,7 +68,7 @@ export const Heading = () => {
     <header className={styles.heading}>
       <MyLinks />
       <div className={styles.buttonholder}>
-        <OutlineButton onClick={() => window.open("/fake_resume.pdf")}>
+        <OutlineButton onClick={() => window.open("/Mr_Abel Majadibodu_Resume.pdf")}>
           My resume
         </OutlineButton>
         <button className={styles.outlineButton2} onClick={handleMakeYourOwnClick}>

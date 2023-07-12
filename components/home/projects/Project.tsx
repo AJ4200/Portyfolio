@@ -54,6 +54,19 @@ export const Project = ({
         animate={controls}
         transition={{ duration: 0.75 }}
       >
+      <Reveal width="100%">
+      <div className={styles.projectTitle}>
+        <h4>{title}</h4>
+          <Link href={code} target="_blank" rel="nofollow">
+          <AiFillGithub size="2.8rem" />
+        </Link>
+
+        <Link href={projectLink} target="_blank" rel="nofollow">
+          <AiOutlineExport size="2.8rem" />
+        </Link>            
+        <div className={styles.projectTitleLine} />          
+      </div>
+    </Reveal>
         <div
           onMouseEnter={() => setHovered(true)}
           onMouseLeave={() => setHovered(false)}
@@ -64,26 +77,13 @@ export const Project = ({
             src={imgSrc}
             alt={`An image of the ${title} project.`}
             style={{
-              width: hovered ? "90%" : "85%",
-              rotate: hovered ? "2deg" : "0deg",
+              width: hovered ? "63%" : "60%"
+  
             }}
           />
         </div>
         <div className={styles.projectCopy}>
-          <Reveal width="100%">
-            <div className={styles.projectTitle}>
-              <h4>{title}</h4>
-              <div className={styles.projectTitleLine} />
 
-              <Link href={code} target="_blank" rel="nofollow">
-                <AiFillGithub size="2.8rem" />
-              </Link>
-
-              <Link href={projectLink} target="_blank" rel="nofollow">
-                <AiOutlineExport size="2.8rem" />
-              </Link>
-            </div>
-          </Reveal>
           <Reveal>
             <div className={styles.projectTech}>{tech.join(" - ")}</div>
           </Reveal>

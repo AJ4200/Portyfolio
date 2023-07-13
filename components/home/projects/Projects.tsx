@@ -5,9 +5,20 @@ import styles from "./projects.module.scss";
 import { Carousel } from "react-responsive-carousel";
 import "react-responsive-carousel/lib/styles/carousel.min.css";
 
+interface ProjectData {
+  title: string;
+  imgSrc: string;
+  code: string;
+  projectLink: string;
+  tech: [];
+  description: string;
+  modalContent: string;
+}
+
+
  export const Projects = () => {
   
-  const [projectsData, setProjectsData] = useState([]);
+  const [projectsData, setProjectsData] = useState<ProjectData[]>([]);
 
    React.useEffect(() => {
     const fetchData = async () => {

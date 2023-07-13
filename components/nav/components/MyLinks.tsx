@@ -1,9 +1,7 @@
 import styles from "./headinglinks.module.scss";
 import {
   AiFillLinkedin,
-  AiFillGithub,
-  AiFillTwitterCircle,
-  AiFillCodepenCircle,
+  AiFillGithub
 } from "react-icons/ai";
 import Link from "next/link";
 import { motion } from "framer-motion";

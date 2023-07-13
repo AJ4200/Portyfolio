@@ -5,6 +5,7 @@ import { useEffect, useRef, useState } from "react";
 import { AiFillGithub, AiOutlineExport } from "react-icons/ai";
 import { ProjectModal } from "./ProjectModal";
 import styles from "./projects.module.scss";
+import Image from "next/image";
 
 interface Props {
   modalContent: JSX.Element;
@@ -73,7 +74,7 @@ export const Project = ({
           onClick={() => setIsOpen(true)}
           className={styles.projectImage}
         >
-          <img
+          <Image
             src={imgSrc}
             alt={`An image of the ${title} project.`}
             style={{

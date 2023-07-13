@@ -5,12 +5,15 @@ import { Carousel } from "react-responsive-carousel";
 import "react-responsive-carousel/lib/styles/carousel.min.css";
  export const Projects = () => {
   const [data, setData] = useState([]);
+  const [isLoading, setIsLoading] = useState(true);
    useEffect(() => {
     const fetchData = async () => {
       try {
-        const response = await fetch("/projectsData.json");
+        const response = await fetch("projectsData.json");
         const jsonData = await response.json();
         setData(jsonData);
+        setIsLoading(false);
+        console.log(jsonData);
       } catch (error) {
         console.error("Error fetching data:", error);
       }
@@ -20,22 +23,32 @@ import "react-responsive-carousel/lib/styles/carousel.min.css";
    return (
     <section className="section-wrapper" id="projects">
       <SectionHeader title="Projects" dir="r" />
-      <Carousel autoPlay infiniteLoop stopOnHover>
-        {data.map((project:any) => (
-          <Project
-            key={project.title}
-            title={project.title}
-            imgSrc={project.imgSrc}
-            code={project.code}
-            projectLink={project.projectLink}
-            tech={project.tech}
-            description={project.description}
-            modalContent={
-              <p dangerouslySetInnerHTML={{ __html: project.modalContent }} />
-            }
-          />
-        ))}
-      </Carousel>
+      {isLoading ? (
+                           <div className="loading">
+                           <span></span>
+                           <span></span>
+                           <span></span>
+                           <span></span>
+                           <span></span>
+                         </div>
+      ) : (
+        <Carousel autoPlay infiniteLoop stopOnHover>
+          {data.map((project: any) => (
+            <Project
+              key={project.title}
+              title={project.title}
+              imgSrc={project.imgSrc}
+              code={project.code}
+              projectLink={project.projectLink}
+              tech={project.tech}
+              description={project.description}
+              modalContent={
+                <p dangerouslySetInnerHTML={{ __html: project.modalContent }} />
+              }
+            />
+          ))}
+        </Carousel>
+      )}
     </section>
   );
 };

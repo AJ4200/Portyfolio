@@ -1,16 +1,32 @@
+import React, { useState } from 'react';
 import { SectionHeader } from "@/components/utils/SectionHeader";
 import { Project } from "./Project";
 import styles from "./projects.module.scss";
-import projectsData from "public/projectsData.json";
-import {Carousel} from "react-responsive-carousel";
+import { Carousel } from "react-responsive-carousel";
 import "react-responsive-carousel/lib/styles/carousel.min.css";
 
  export const Projects = () => {
-  return (
+  
+  const [projectsData, setProjectsData] = useState([]);
+
+   React.useEffect(() => {
+    const fetchData = async () => {
+      try {
+        const response = await fetch("/projectsData.json");
+        const data = await response.json();
+        setProjectsData(data);
+        console.log(data)
+      } catch (error) {
+        console.error("Error fetching projects data:", error);
+      }
+    };
+     fetchData();
+  }, []);
+   return (
     <section className="section-wrapper" id="projects">
       <SectionHeader title="Projects" dir="r" />
       <Carousel autoPlay infiniteLoop stopOnHover>
-      {projectsData.map((project) => {
+        {projectsData.map((project) => {
           return (
             <Project
               key={project.title}
@@ -24,7 +40,7 @@ import "react-responsive-carousel/lib/styles/carousel.min.css";
             />
           );
         })}
-            </Carousel>
+      </Carousel>
     </section>
   );
 };

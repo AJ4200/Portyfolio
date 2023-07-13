@@ -1,26 +1,16 @@
-import React, { useState } from 'react';
+import React, { useEffect, useState } from 'react';
 import { SectionHeader } from "@/components/utils/SectionHeader";
 import { Project } from "./Project";
 import styles from "./projects.module.scss";
 import { Carousel } from "react-responsive-carousel";
 import "react-responsive-carousel/lib/styles/carousel.min.css";
 
-interface ProjectData {
-  title: string;
-  imgSrc: string;
-  code: string;
-  projectLink: string;
-  tech: [];
-  description: string;
-  modalContent: string;
-}
-
 
  export const Projects = () => {
   
-  const [projectsData, setProjectsData] = useState<ProjectData[]>([]);
+  const [projectsData, setProjectsData] = useState([]);
 
-   React.useEffect(() => {
+   useEffect(() => {
     const fetchData = async () => {
       try {
         const response = await fetch("/projectsData.json");
@@ -37,7 +27,7 @@ interface ProjectData {
     <section className="section-wrapper" id="projects">
       <SectionHeader title="Projects" dir="r" />
       <Carousel autoPlay infiniteLoop stopOnHover>
-        {projectsData.map((project) => {
+        {projectsData.map((project:any) => {
           return (
             <Project
               key={project.title}

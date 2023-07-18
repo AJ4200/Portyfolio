@@ -1,3 +1,4 @@
+/* eslint-disable @next/next/no-img-element */
 import { Reveal } from "@/components/utils/Reveal";
 import { useAnimation, useInView, motion } from "framer-motion";
 import Link from "next/link";
@@ -74,12 +75,11 @@ export const Project = ({
           onClick={() => setIsOpen(true)}
           className={styles.projectImage}
         >
-          <Image
+          <img
             src={imgSrc}
             alt={`An image of the ${title} project.`}
             style={{
-              width: hovered ? "63%" : "60%"
-  
+              width: hovered ? "63%" : "60%" 
             }}
           />
         </div>

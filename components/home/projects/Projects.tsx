@@ -4,19 +4,19 @@ import { Project } from "./Project";
 import { Carousel } from "react-responsive-carousel";
 import "react-responsive-carousel/lib/styles/carousel.min.css";
 
-export const Projects = () => {
+ export const Projects = () => {
+
   const [data, setData] = useState([]);
   const [isLoading, setIsLoading] = useState(true);
    useEffect(() => {
     const fetchData = async () => {
       try {
-        const response = await fetch("/projectsData.json"); // Update the URL here
-        const jsonData = await response.json();
-        setData(jsonData);
+        const response = await fetch('https://portyfolio-api.onrender.com/projects');
+        const projects = await response.json();
+        setData(projects);
         setIsLoading(false);
-        console.log(jsonData);
-      } catch (error) {
-        console.error("Error fetching data:", error);
+      } catch (err) {
+        console.error(err);
       }
     };
      fetchData();
@@ -34,17 +34,17 @@ export const Projects = () => {
         </div>
       ) : (
         <Carousel autoPlay infiniteLoop stopOnHover>
-          {data.map((project) => (
+          {data.map((project:any) => (
             <Project
               key={project.title}
               title={project.title}
-              imgSrc={project.imgSrc}
+              imgSrc={project.imgsrc}
               code={project.code}
-              projectLink={project.projectLink}
+              projectLink={project.projectlink}
               tech={project.tech}
               description={project.description}
               modalContent={
-                <p dangerouslySetInnerHTML={{ __html: project.modalContent }} />
+                <p dangerouslySetInnerHTML={{ __html: project.modalcontent }} />
               }
             />
           ))}

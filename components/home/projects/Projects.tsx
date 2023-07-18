@@ -3,9 +3,7 @@ import { SectionHeader } from "@/components/utils/SectionHeader";
 import { Project } from "./Project";
 import { Carousel } from "react-responsive-carousel";
 import "react-responsive-carousel/lib/styles/carousel.min.css";
-
  export const Projects = () => {
-
   const [data, setData] = useState([]);
   const [isLoading, setIsLoading] = useState(true);
    useEffect(() => {
@@ -38,13 +36,13 @@ import "react-responsive-carousel/lib/styles/carousel.min.css";
             <Project
               key={project.title}
               title={project.title}
-              imgSrc={project.imgsrc}
+              imgSrc={project.imgSrc}
               code={project.code}
-              projectLink={project.projectlink}
+              projectLink={project.projectLink}
               tech={project.tech}
               description={project.description}
               modalContent={
-                <p dangerouslySetInnerHTML={{ __html: project.modalcontent }} />
+                <p dangerouslySetInnerHTML={{ __html: project.modalContent }} />
               }
             />
           ))}

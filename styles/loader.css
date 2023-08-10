@@ -17,7 +17,6 @@
     box-sizing: border-box;
     position: absolute;
     display: block;
-    box-shadow: 0 0 20px rgba(var(--brand-rgb), 0.5);
     backdrop-filter: blur(10px);
   }
   

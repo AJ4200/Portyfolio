@@ -9,7 +9,7 @@ import "react-responsive-carousel/lib/styles/carousel.min.css";
    useEffect(() => {
     const fetchData = async () => {
       try {
-        const response = await fetch('https://portyfolio-api.onrender.com/projects');
+        const response = await fetch('/ProjectsData.json');
         const projects = await response.json();
         setData(projects);
         setIsLoading(false);

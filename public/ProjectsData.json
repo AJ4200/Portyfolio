@@ -1,72 +1,80 @@
 [
-    {
-        "title": "Portyfolio",
-        "imgSrc": "project-imgs/Portyfolio.png",
-        "code": "https://github.com/AJ4200/Portyfolio",
-        "projectLink": "https://portyfolio.vercel.app",
-        "tech": [
-            "Nodejs(Next)",
-            "Ruby On Rails",
-            "PostgreSQL",
-            "Express",
-            "Axios"
-        ],
-        "description": "I designed and built this website from so that one can present their resume visually. It was a birthday gift to myself",
-        "modalContent": "<p>\nPortyfolio is a website that helps job seekers create an online portfolio to showcase their skills, experience, and achievements in a visually appealing way. The platform offers customizable templates and designs, allowing users to create a unique and professional-looking portfolio that reflects their personality and style. Users can add their work experience, education, skills, projects, and multimedia content to bring their portfolio to life. The platform's user-friendly interface makes it easy to edit and update the portfolio, ensuring it stays current and relevant as the user progresses in their career.\n</p>\n<p>\nPortyfolio is suitable for both recent graduates looking for their first job and experienced professionals seeking to switch careers. With the platform's visually-driven format and customizable templates, users can stand out in a crowded job market and create a compelling online brand. By signing up for Portyfolio, job seekers can take the first step towards landing their dream job by showcasing their talents and experience in a unique and creative way.\n</p>"
-    },
-    {
-        "title": "CommonFunLib.io",
-        "imgSrc": "project-imgs/CommonFunLib.png",
-        "code": "https://github.com/AJ4200/commonfunlib.io",
-        "projectLink": "https://commonfunlib.onrender.com",
-        "tech": [
-            "Nodejs(React)",
-            "Ruby On Rails",
-            "Maven",
-            "Java"
-        ],
-        "description": "A companion for My Java library. This app is my baby, designed and built on my own.",
-        "modalContent": "<p>\nCommonFunLib is a Java library that offers a collection of commonly used functions that can be utilized for various purposes such as hashing, computing, and generating functions. This library serves as a helpful companion for developers who are looking for a reliable and efficient tool to make their coding process more efficient. It was designed and built by a single developer who has put a lot of effort into ensuring that the library is robust and capable of meeting the needs of developers across different industries.\n</p>\n<p>\nThe library is a result of the developer's passion and dedication towards creating a valuable resource for the Java community. It is a testament to their technical expertise and commitment to delivering high-quality solutions. With CommonFunLib, developers can enjoy a seamless and efficient coding experience, allowing them to focus on other important aspects of their projects. Overall, this library is a must-have for developers who are looking for an all-in-one solution that simplifies the development process and enhances productivity.\n</p>"
-    },
-    {
-        "title": "CodeShifter",
-        "imgSrc": "project-imgs/CodeShifter.png",
-        "code": "https://github.com/AJ4200/CodeShifter",
-        "projectLink": "https://code-shifter.vercel.app",
-        "tech": [
-            "Nodejs(Next)",
-            "Python",
-            "NTM(Language Models)"
-        ],
-        "description": "Converts code form one progamming language to another instantly",
-        "modalContent": "<p>\nCodeShifter is a web-based platform that simplifies the process of converting code from one programming language to another. This platform is designed to help programmers easily transition from one programming language to another, without having to learn an entirely new language from scratch. With a simple and intuitive user interface, users can easily enter the code they want to convert and select the desired output language, and the platform will generate the corresponding code in the new language.\n</p>\n<p>\nCodeShifter supports a wide range of programming languages, including popular languages such as Java, Python, C#, Typescript, Javascript and Ruby. The platform also provides advanced features such as syntax highlighting, error detection, and code optimization. With its powerful and easy-to-use tools, CodeShifter is an invaluable resource for developers who need to convert code from one language to another quickly and efficiently, without sacrificing quality or functionality.\n</p>"
-    },
-    {
-        "title": "AppoFlex",
-        "imgSrc": "project-imgs/Appoflex.png",
-        "code": "https://github.com/AJ4200/AppoFlex",
-        "projectLink": "https://appo-flex.vercel.app/",
-        "tech": [
-            "Nodejs(Next)",
-            "PostgreSQL",
-            "ExpressJS"
-        ],
-        "description": "RealTime flexible appointments between client and service provider",
-        "modalContent": "AppoFlex is a dynamic and flexible appointment management system designed for clients and service providers, such as hairdressers. Our platform revolutionizes the way appointments are handled, ensuring a seamless experience for both parties. With AppoFlex, you no longer need to worry about overlapping appointments. Our intelligent system understands the time required for each service, allowing you to allocate the appropriate duration to each appointment. This way, you can provide your full attention to every client without rushing. Say goodbye to missed appointments! AppoFlex sends real-time alerts and notifications to clients and service providers, ensuring everyone stays informed about any changes. If a previous appointment runs longer than expected, the system automatically alerts the next customer, suggesting the next available time slot. We understand that life can be unpredictable. AppoFlex offers flexibility to reschedule or modify appointments with ease. Our user-friendly interface allows both clients and service providers to manage their schedules effortlessly, saving time and minimizing disruptions. AppoFlex facilitates seamless communication between clients and service providers. Need to discuss specific requirements or preferences? Our platform provides a convenient messaging system, ensuring effective communication before, during, and after appointments. Ready to streamline your appointment management process? Join AppoFlex and discover the power of flexible scheduling, real-time alerts, and effortless communication. Say goodbye to scheduling conflicts and hello to a more efficient and satisfying experience for both clients and service providers."
-    },
-    {
-        "title": "H.D.F.Player",
-        "imgSrc": "project-imgs/Hdfplayer.png",
-        "code": "https://github.com/AJ4200/H.D.F.Player",
-        "projectLink": "https://github.com/AJ4200/H.D.F.Player",
-        "tech": [
-            "Nodejs(Next)",
-            "Ruffle",
-            "jsDos",
-            "HTML5",
-            "Animate.css"
-        ],
-        "description": "RealTime flexible appointments between client and service provider",
-        "modalContent": ".  "
-    }
+  {
+    "title": "AppoFlex",
+    "imgSrc": "project-imgs/Appoflex.png",
+    "code": "https://github.com/AJ4200/AppoFlex",
+    "projectLink": "https://appo-flex.vercel.app/",
+    "tech": ["Nextjs", "Expressjs", "PostgreSQL", "Tailwindcss"],
+    "description": "RealTime flexible appointments between client and service provider",
+    "modalContent": "AppoFlex is a dynamic and flexible appointment management system designed for clients and service providers, such as hairdressers. Our platform revolutionizes the way appointments are handled, ensuring a seamless experience for both parties. With AppoFlex, you no longer need to worry about overlapping appointments. Our intelligent system understands the time required for each service, allowing you to allocate the appropriate duration to each appointment. This way, you can provide your full attention to every client without rushing. Say goodbye to missed appointments! AppoFlex sends real-time alerts and notifications to clients and service providers, ensuring everyone stays informed about any changes. If a previous appointment runs longer than expected, the system automatically alerts the next customer, suggesting the next available time slot. We understand that life can be unpredictable. AppoFlex offers flexibility to reschedule or modify appointments with ease. Our user-friendly interface allows both clients and service providers to manage their schedules effortlessly, saving time and minimizing disruptions. AppoFlex facilitates seamless communication between clients and service providers. Need to discuss specific requirements or preferences? Our platform provides a convenient messaging system, ensuring effective communication before, during, and after appointments. Ready to streamline your appointment management process? Join AppoFlex and discover the power of flexible scheduling, real-time alerts, and effortless communication. Say goodbye to scheduling conflicts and hello to a more efficient and satisfying experience for both clients and service providers."
+  },
+  {
+    "title": "TimeWhere",
+    "imgSrc": "project-imgs/TimeWhere.png",
+    "code": "https://github.com/AJ4200/TimeWhere",
+    "projectLink": "https://time-where.vercel.app/",
+    "tech": [
+      "NextJS",
+      "Tailwindcss",
+      "Framer-Motion",
+      "WorldTimeAPI",
+      "Typescript"
+    ],
+    "description": "I did the 4-hour frontend coding challenge",
+    "modalContent": "TimeWhere is a web application that I developed as part of a 4-hour frontend coding challenge. The app is built using popular technologies such as Next.js, TailwindCSS, Framer Motion, and WorldTimeAPI. The main purpose of the app is to provide users with information about different time zones around the world. Once a user selects a time zone, the app displays relevant information about the date and time in that area. This includes details such as the current time, time zone offset, and other datetime information. TimeWhere offers a user-friendly interface that is easy to navigate and provides accurate information about time zones across the globe."
+  },
+  {
+    "title": "CodeShifter",
+    "imgSrc": "project-imgs/CodeShifter.png",
+    "code": "https://github.com/AJ4200/CodeShifter",
+    "projectLink": "https://code-shifter.vercel.app",
+    "tech": ["Nextjs", "Python", "NLM(Launguage Model)"],
+    "description": "Converts code form one progamming language to another instantly",
+    "modalContent": "<p>CodeShifter is a web-based platform that simplifies the process of converting code from one programming language to another. This platform is designed to help programmers easily transition from one programming language to another, without having to learn an entirely new language from scratch. With a simple and intuitive user interface, users can easily enter the code they want to convert and select the desired output language, and the platform will generate the corresponding code in the new language.</p><p>CodeShifter supports a wide range of programming languages, including popular languages such as Java, Python, C#, Typescript, Javascript and Ruby. The platform also provides advanced features such as syntax highlighting, error detection, and code optimization. With its powerful and easy-to-use tools, CodeShifter is an invaluable resource for developers who need to convert code from one language to another quickly and efficiently, without sacrificing quality or functionality.</p>"
+  },
+  {
+    "title": "Portyfolio",
+    "imgSrc": "project-imgs/Portyfolio.png",
+    "code": "https://github.com/AJ4200/Portyfolio",
+    "projectLink": "https://portyfolio.vercel.app",
+    "tech": ["Nodejs(Next)", "Ruby On Rails", "PostgreSQL", "Express", "Axios"],
+    "description": "I designed and built this website from so that one can present their resume visually. It was a birthday gift to myself",
+    "modalContent": "<p>Portyfolio is a website that helps job seekers create an online portfolio to showcase their skills, experience, and achievements in a visually appealing way. The platform offers customizable templates and designs, allowing users to create a unique and professional-looking portfolio that reflects their personality and style. Users can add their work experience, education, skills, projects, and multimedia content to bring their portfolio to life. The platform&apos;s user-friendly interface makes it easy to edit and update the portfolio, ensuring it stays current and relevant as the user progresses in their career.</p> <p>Portyfolio is suitable for both recent graduates looking for their first job and experienced professionals seeking to switch careers. With the platform&apos;s visually-driven format and customizable templates, users can stand out in a crowded job market and create a compelling online brand. By signing up for Portyfolio, job seekers can take the first step towards landing their dream job by showcasing their talents and experience in a unique and creative way.</p>"
+  },
+  {
+    "title": "H.D.F.Player",
+    "imgSrc": "project-imgs/Hdfplayer.png",
+    "code": "https://github.com/AJ4200/H.D.F.Player",
+    "projectLink": "https://h-d-f-player.vercel.app/",
+    "tech": [
+      "Nextjs",
+      "Ruffle",
+      "jsDOS",
+      "HTML5",
+      "Nextjs",
+      "Ruffle",
+      "jsDOS",
+      "HTML5"
+    ],
+    "description": "Web browser emulator that lets you play flash, html5, and jsdos games in your browser",
+    "modalContent": "H.D.F.Player is a cutting-edge web browser emulator designed to provide users with a seamless gaming experience. With the ability to play a wide range of games, including flash, html5, and jsdos, directly in your browser, H.D.F.Player revolutionizes the way you enjoy gaming. Say goodbye to the hassle of downloading and installing multiple game clients or plugins – H.D.F.Player eliminates the need for additional software by offering a comprehensive platform that supports various game formats. Whether you%apos;re a fan of classic flash games, modern html5 titles, or nostalgic jsdos gems, H.D.F.Player has got you covered. Immerse yourself in a world of endless gaming possibilities with H.D.F.Player, where convenience meets entertainment."
+  },
+  {
+    "title": "CommonFunLib.io",
+    "imgSrc": "project-imgs/CommonFunLib.png",
+    "code": "https://github.com/AJ4200/commonfunlib.io",
+    "projectLink": "https://commonfunlib.onrender.com",
+    "tech": ["Reactjs", "Nodejs", "Ruby on Rails", "Express", "Axios"],
+    "description": "A companion for My Java library. This app is my baby, designed and built on my own.",
+    "modalContent": "<p>CommonFunLib is a Java library that offers a collection of commonly used functions that can be utilized for various purposes such as hashing, computing, and generating functions. This library serves as a helpful companion for developers who are looking for a reliable and efficient tool to make their coding process more efficient. It was designed and built by a single developer who has put a lot of effort into ensuring that the library is robust and capable of meeting the needs of developers across different industries.</p><p>The library is a result of the developer&apos;s passion and dedication towards creating a valuable resource for the Java community. It is a testament to their technical expertise and commitment to delivering high-quality solutions. With CommonFunLib, developers can enjoy a seamless and efficient coding experience, allowing them to focus on other important aspects of their projects. Overall, this library is a must-have for developers who are looking for an all-in-one solution that simplifies the development process and enhances productivity.</p>"
+  },
+  {
+    "title": "VK's Resume",
+    "imgSrc": "project-imgs/VK-Resume.png",
+    "code": "https://github.com/AJ4200/Tesla-s-Resume",
+    "projectLink": "https://tesla-s-resume.vercel.app/",
+    "tech": ["Typescript", "NextJS", "Tailwindcss", "PureAnimations"],
+    "description": "This is a resume i built for a client",
+    "modalContent": "It was fun as this is where i went full tailwindcss on a project for the first time without adding pure css. Typescript was also great and i was able to safely tap in ES3. The client is happy about it. I am im happy. Overall it looks good "
+  }
 ]
